@@ -18,7 +18,7 @@
 
 # 📖 About This Project <a name="about-project"></a>
 
-> Navigation-Nation is a website crafted using HTML, CSS, and JavaScript, with the added benefit of linters to address any errors in the code, and it's built with Webpack as its primary focus. This project leverages advanced CSS and JavaScript coding techniques. Feel free to explore the demo link.
+> Password-Gen-Angular is a website created with Angular 12, and styled with SCSS. The goal of this project is for me to practice and learn more about Angular 12 and Angular in general.
 
 # Sample Of Website <a name="Sample-Of-Website"></a>
 
@@ -49,16 +49,6 @@
 - **[CSS ]**
 - **[TypeScript ]**
 - **[Angular ]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://ameer2000mzori.github.io/awesomebooks/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
