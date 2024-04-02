@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './password-gen.component.scss',
 })
 export class PasswordGenComponent {
-  length: any;
+  length: number = 8;
   letters: boolean = false;
   numbers: boolean = false;
   symbols: boolean = false;
