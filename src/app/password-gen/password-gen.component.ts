@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { generatePassword } from './genPassword';
 @Component({
   selector: 'app-password-gen',
   standalone: true,
@@ -16,12 +17,11 @@ export class PasswordGenComponent {
   password: string | number = 'test password';
 
   generatePassword() {
-    console.log('length: ', this.length);
-    console.log('letters: ', this.letters);
-    console.log('numbers: ', this.numbers);
-    console.log('symbols: ', this.symbols);
-    console.log('password: ', this.password);
-
-    this.password = this.length;
+    this.password = generatePassword(
+      this.length,
+      this.letters,
+      this.numbers,
+      this.symbols
+    );
   }
 }
