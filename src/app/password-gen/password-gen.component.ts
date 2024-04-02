@@ -13,5 +13,15 @@ export class PasswordGenComponent {
   numbers: boolean = false;
   symbols: boolean = false;
 
-  password: string = 'test password';
+  password: string | number = 'test password';
+
+  generatePassword() {
+    console.log('length: ', this.length);
+    console.log('letters: ', this.letters);
+    console.log('numbers: ', this.numbers);
+    console.log('symbols: ', this.symbols);
+    console.log('password: ', this.password);
+
+    this.password = this.length;
+  }
 }
