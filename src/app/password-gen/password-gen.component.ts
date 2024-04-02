@@ -12,4 +12,6 @@ export class PasswordGenComponent {
   letters: boolean = false;
   numbers: boolean = false;
   symbols: boolean = false;
+
+  password: string = 'test password';
 }
